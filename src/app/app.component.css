@@ -1,0 +1,8 @@
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

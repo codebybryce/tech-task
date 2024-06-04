@@ -1,0 +1,11 @@
+<div class="gallery">
+@for (photo of data; track photo.id) {
+    <img src={{photo.url}} data-name={{photo.title}} alt={{photo.title}} title={{photo.title}}/>
+  }
+</div>
+<div class="pagination">
+  <button (click)="prevPage()">Previous</button>
+  Page: {{currentPage + 1}}
+  <button (click)="nextPage()">Next</button>
+</div>
+
